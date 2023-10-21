@@ -7,7 +7,7 @@ import {
   AspectRatio
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, WorkImage, Meta } from '../../components/portfolio'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -45,8 +45,8 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
+      <WorkImage src="/images/portfolio/inkdrop_01.png" alt="Inkdrop" />
+      <WorkImage src="/images/portfolio/inkdrop_02.png" alt="Inkdrop" />
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
           src="https://www.youtube.com/embed/-qBavwqc_mY"

@@ -55,7 +55,7 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/margelo_eyecatch.png" alt="Website" />
+      <WorkImage src="/images/portfolio/margelo_eyecatch.png" alt="Website" />
 
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
@@ -67,9 +67,9 @@ const Work = () => (
         ></iframe>
       </AspectRatio>
 
-      <WorkImage src="/images/works/margelo_01.png" alt="Margelo" />
-      <WorkImage src="/images/works/margelo_02.png" alt="Margelo" />
-      <WorkImage src="/images/works/margelo_03.png" alt="Margelo" />
+      <WorkImage src="/images/portfolio/margelo_01.png" alt="Margelo" />
+      <WorkImage src="/images/portfolio/margelo_02.png" alt="Margelo" />
+      <WorkImage src="/images/portfolio/margelo_03.png" alt="Margelo" />
     </Container>
   </Layout>
 )

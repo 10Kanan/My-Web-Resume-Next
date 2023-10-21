@@ -87,12 +87,12 @@ const Work = () => (
       </UnorderedList>
 
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/walknote_01.png" alt="walknote" />
-        <WorkImage src="/images/works/walknote_02.png" alt="walknote" />
+        <WorkImage src="/images/portfolio/walknote_01.png" alt="walknote" />
+        <WorkImage src="/images/portfolio/walknote_02.png" alt="walknote" />
       </SimpleGrid>
-      <WorkImage src="/images/works/walknote_03.png" alt="walknote" />
-      <WorkImage src="/images/works/walknote_04.png" alt="walknote" />
-      <WorkImage src="/images/works/walknote_05.png" alt="walknote" />
+      <WorkImage src="/images/portfolio/walknote_03.png" alt="walknote" />
+      <WorkImage src="/images/portfolio/walknote_04.png" alt="walknote" />
+      <WorkImage src="/images/portfolio/walknote_05.png" alt="walknote" />
     </Container>
   </Layout>
 )

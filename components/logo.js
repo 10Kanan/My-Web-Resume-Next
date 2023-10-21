@@ -8,7 +8,7 @@ const LogoBox = styled.span`
   font-size: 18px;
   display: inline-flex;
   align-items: center;
-  height: 30px;
+  height: auto;
   line-height: 20px;
   padding: 10px;
 
@@ -23,8 +23,7 @@ const LogoBox = styled.span`
 
 const Logo = () => {
   return (
-    (<Link href="/" scroll={false}>
-
+    <Link href="/" scroll={false}>
       <LogoBox>
         <FootprintIcon />
         <Text
@@ -33,12 +32,11 @@ const Logo = () => {
           fontWeight="bold"
           ml={3}
         >
-          Takuya Matsuyama
+          Phornlapat Piban
         </Text>
       </LogoBox>
-
-    </Link>)
-  );
+    </Link>
+  )
 }
 
 export default Logo
