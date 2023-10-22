@@ -13,7 +13,7 @@ const Footer = () => {
       >
         This website template is built based on the{' '}
         <a href="https://www.craftz.dog/" target="_blank" rel="noreferrer">
-          Takuya Matsuyama's website
+          Takuya Matsuyama&apos;s website
         </a>
       </Box>
     </>

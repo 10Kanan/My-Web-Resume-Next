@@ -52,7 +52,7 @@ const Work = () => (
           <Badge>As admins:</Badge>
           <P>- Authentication</P>
           <P>- CRUD (Create, Read, Update, Delete) Merry Packages</P>
-          <P>- CRUD (Read, Update, Delete) customer's complaints (CRM)</P>
+          <P>- CRUD (Read, Update, Delete) customer&apos;s complaints (CRM)</P>
           <P>- Upload icon of Merry Packages</P>
         </ListItem>
 

@@ -14,12 +14,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import {
-  IoLogoGithub,
-  IoPersonCircle,
-  IoLogoLinkedin,
-  IoSchoolSharp
-} from 'react-icons/io5'
+import { IoLogoGithub, IoPersonCircle, IoLogoLinkedin } from 'react-icons/io5'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -82,10 +77,11 @@ const Home = () => (
           Projects
         </Heading>
         <Paragraph>
-          This section will introduce you to the projects I've been learning and
-          working on. It includes my full-stack web application project, class
-          projects, and tutorials I've learned from. I hope these projects give
-          you a better understanding of me. Click to explore more details.
+          This section will introduce you to the projects I&apos;ve been
+          learning and working on. It includes my full-stack web application
+          project, class projects, and tutorials I&apos;ve learned from. I hope
+          these projects give you a better understanding of me. Click to explore
+          more details.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
