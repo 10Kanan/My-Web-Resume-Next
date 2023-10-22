@@ -134,9 +134,9 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>Tools</BioYear>
-          JavaScript(ES6), TypeScript, React.js, Next.js, React Native, Vite.js,
-          Tailwind CSS, Bootstrap, Axios, Firebase, Node.js, Express.js, SQL,
-          NoSQL, PostgreSQL, Mongodb, Supabase, Git, Github
+          JavaScript(ES6), TypeScript, React.js, Next.js, Vite.js, Tailwind CSS,
+          Axios, Firebase, Node.js, Express.js, SQL, NoSQL, PostgreSQL, Mongodb,
+          Supabase, Git, Github
         </BioSection>
       </Section>
 

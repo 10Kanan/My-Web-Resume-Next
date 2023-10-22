@@ -2,119 +2,99 @@ import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
-
-import thumbInkdrop from '../public/images/portfolio/inkdrop_eyecatch.png'
-import thumbWalknote from '../public/images/portfolio/walknote_eyecatch.png'
-import thumbFourPainters from '../public/images/portfolio/the-four-painters_eyecatch.jpg'
-import thumbMenkiki from '../public/images/portfolio/menkiki_eyecatch.png'
-import thumbMargelo from '../public/images/portfolio/margelo_eyecatch.png'
-import thumbModeTokyo from '../public/images/portfolio/modetokyo_eyecatch.png'
-import thumbStyly from '../public/images/portfolio/styly_eyecatch.png'
-import thumbPichu2 from '../public/images/portfolio/pichu2_eyecatch.png'
-import thumbFreeDBTagger from '../public/images/portfolio/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/portfolio/amembo_eyecatch.png'
+import merrymatch01 from '../public/images/portfolio/merrymatch01.jpg'
+import petsitter01 from '../public/images/portfolio/petsitter01.jpg'
+import nikehome01 from '../public/images/portfolio/nikehome01.jpg'
+import modern_thumbnail from '../public/images/portfolio/modern_thumbnail.jpg'
+import resume_vite01 from '../public/images/portfolio/resume_vite01.jpg'
+import responsive_tripp01 from '../public/images/portfolio/responsive_tripp01.jpg'
+import tourist01 from '../public/images/portfolio/tourist01.jpg'
 
 const Portfolio = () => (
   <Layout title="portfolio">
-    <Container>
+    <Container mt={10}>
       <Heading as="h3" fontSize={20} mb={4}>
-        Portfolio
+        Full-Stack
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem
+            id="merrymatch"
+            title="MerryMatch"
+            thumbnail={merrymatch01}
+          >
+            An online dating app that allows everyone to create their own dating
+            profile and discover new people.
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
-            title="walknote"
-            thumbnail={thumbWalknote}
+            id="petsitter"
+            title="PetSitter"
+            thumbnail={petsitter01}
           >
-            Music recommendation app for iOS
+            An online app that allows pet owners to find trusted caregivers for
+            their pets.
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.1}>
+        {/* <Section delay={0.1}>
           <WorkGridItem
             id="fourpainters"
-            title="The four painters"
+            title="Threads"
             thumbnail={thumbFourPainters}
           >
             A video work generated with deep learning, imitating famous four
             painters like Van Gogh
           </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
-          </WorkGridItem>
-        </Section>
+        </Section> */}
       </SimpleGrid>
 
       <Section delay={0.2}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
+          Other projects
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
-            A website of the elite app development and contracting agency based
-            in Austria
-          </WorkGridItem>
+          <WorkGridItem
+            id="nike"
+            thumbnail={nikehome01}
+            title="Nike-Home"
+          ></WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem
-            id="modetokyo"
-            thumbnail={thumbModeTokyo}
-            title="mode.tokyo"
-          >
-            The mode magazine for understanding to personally enjoy Japan
-          </WorkGridItem>
+            id="hoobank"
+            thumbnail={modern_thumbnail}
+            title="HooBank-Home"
+          ></WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
-            A VR Creative tools for fashion brands
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid>
-
-      <Section delay={0.4}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Old portfolio
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
-            Twitter client app for iPhone Safari
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.5}>
           <WorkGridItem
-            id="freedbtagger"
-            thumbnail={thumbFreeDBTagger}
-            title="freeDBTagger"
-          >
-            Automatic audio file tagging tool using FreeDB for Windows
-          </WorkGridItem>
+            id="viteresume"
+            thumbnail={resume_vite01}
+            title="Vite-Resume"
+          ></WorkGridItem>
         </Section>
-        <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
-            P2P private file sharing tool with MSN Messenger integration for
-            Windows
-          </WorkGridItem>
+
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="tripp"
+            thumbnail={responsive_tripp01}
+            title="Tripp-Home"
+          ></WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="tourist"
+            thumbnail={tourist01}
+            title="Tourist-Attraction"
+          ></WorkGridItem>
         </Section>
       </SimpleGrid>
     </Container>
